@@ -1,13 +1,11 @@
 import unittest
-import string_calculator
 
-
-
+def add(number):
   
-
+  
 class String_calculatorTest(unittest.TestCase):
   def given_empty_string_zero_expected(self):
-    self.assertTrue(string_calculator.add("0") == 0)
+    self.assertTrue(add("0") == 0)
   
 
 if __name__ == '__main__':
