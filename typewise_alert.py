@@ -7,6 +7,7 @@ def infer_breach(value, lowerLimit, upperLimit):
   return 'NORMAL'
 
 
+
 def classify_temperature_breach(coolingType, temperatureInC):
   lowerLimit = 0
   upperLimit = 0
