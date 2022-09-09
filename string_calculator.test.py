@@ -3,6 +3,7 @@ import unittest
 
 
 def add(num):
+  pass
   
 
 class String_calculatorTest(unittest.TestCase):
