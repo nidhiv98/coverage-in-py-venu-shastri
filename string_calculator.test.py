@@ -1,7 +1,8 @@
 import unittest
 
 def add(number):
-  if 
+  if len(number)==0:
+    return 0
   
   
 class String_calculatorTest(unittest.TestCase):
